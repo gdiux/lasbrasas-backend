@@ -9,7 +9,11 @@ const DepartmentSchema = Schema({
     img: {
         type: String,
         require: true
-    },    
+    },
+    pic: {
+        type: String,
+        require: true
+    },
     visibility: {
         type: Boolean,
         default: true
