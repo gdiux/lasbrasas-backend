@@ -31,6 +31,7 @@ app.use(express.static('public'));
 app.use('/api/datos', require('./routes/datos.route'));
 app.use('/api/departments', require('./routes/departments.route'));
 app.use('/api/products', require('./routes/products.route'));
+app.use('/api/reservas', require('./routes/reservas.route'));
 app.use('/api/search', require('./routes/search.route'));
 app.use('/api/tax', require('./routes/tax.route'));
 app.use('/api/uploads', require('./routes/uploads.route'));
