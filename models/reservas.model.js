@@ -37,9 +37,14 @@ const ReservasSchema = Schema({
         default: false
     },
 
-    status: {
+    confirm: {
         type: Boolean,
         default: false
+    },
+
+    status: {
+        type: Boolean,
+        default: true
     },
 
     fecha: {
