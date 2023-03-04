@@ -30,6 +30,7 @@ app.use(express.static('public'));
 // RUTASs
 app.use('/api/datos', require('./routes/datos.route'));
 app.use('/api/departments', require('./routes/departments.route'));
+app.use('/api/domicilios', require('./routes/domicilio.route'));
 app.use('/api/products', require('./routes/products.route'));
 app.use('/api/reservas', require('./routes/reservas.route'));
 app.use('/api/search', require('./routes/search.route'));
